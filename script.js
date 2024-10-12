@@ -1,4 +1,4 @@
-import { createTable } from "../shared/utils.js";
+import { createTable } from './shared/utils';
 
 let fileNames = [];
 const referenceFile = 'reference.json';
