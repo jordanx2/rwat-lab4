@@ -1,9 +1,8 @@
-import { createTable } from '/rwat-lab4/shared/utils.js';
+import { createTable } from '/shared/utils.js';
 
 let fileNames = [];
 const referenceFile = 'reference.json';
-const external = false;
-const endpoint = external ? 'https://jordanx2.github.io/rwat-lab4/data/' : './data/';
+const endpoint = 'https://jordanx2.github.io/rwat-lab4/data/';
 const tableHeadings = ['name', 'id', 'address', 'grades'];
 
 const populateFileNames = async (fileName, finalAppend, result = []) => {
